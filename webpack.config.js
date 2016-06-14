@@ -21,7 +21,7 @@ module.exports = {
         // specify loader and required presets
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015']
+          presets: ['react', 'es2015', 'stage-0']
         },
         // select every file with .jsx extension
         test: /\.jsx?$/,
